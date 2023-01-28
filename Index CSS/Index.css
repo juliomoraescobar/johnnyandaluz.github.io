@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(251, 6, 6, 0.1);
+}
+.contenedor .left_side{
+    position: relative;
+    background: rgb(64, 197, 217);
+    padding: 40px;
+}
+.texto_perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(40, 40, 40, 0.2);
+}
+.texto_perfil h2{
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.contactoInfo{
+    border-bottom: 1px solid rgba(40, 40, 40, 0.2);
+}
+
+.contenedor .right_side{
+    position: relative;
+    background:#fff;
+    padding: 40px;
+}
+.perfil{
+    border-bottom: 1px solid rgba(40, 40, 40, 0.2);
+}
+.fecha{
+    text-align: right;
+}
+.experiencia{
+    border-bottom: 1px solid rgba(40, 40, 40, 0.2);
+}
+.escuela{
+    text-align: right;
+}
+.colegio{
+    text-align: right;
+}
+.universidad{
+    text-align: right;
+}
